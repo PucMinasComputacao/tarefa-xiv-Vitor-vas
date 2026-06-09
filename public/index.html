@@ -1,13 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Loja</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--link-css-->
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/style/styles.css'>
+    <!--link-font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <nav>
+        <div class="dropdown">
+            <img src="./assets/img/menu-hamburguer.png" class="icones">
+            <div class="dropdown-content">
+                <a href="">Link1</a>
+                <a href="">Link2</a>
+                <a href="">Link3</a>
+            </div>
+        </div>
+
+        <form id="formSearch">
+            <div>
+                <a href="index.html" id="logoNav"><img id="logoImgNav" src="./assets/img/logo.png" ></a>
+            </div>
+        </form>
+        <div>
+            <a href=""><img src="./assets/img/procurar.png" id="imgSearch" class="icones"></a>
+            <a href=""><img src="./assets/img/carrinho-de-compras.png" class="icones"></a>
+            <a href=""><img src="./assets/img/do-utilizador.png" class="icones"></a>
+        </div>
+    </nav>
+    <header class="atributo"></header>
+    <!--
+    <main class="atributo">
+        <h1>Sobre nós</h1>
+        <div id="textArt">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim
+                id est laborum.
+            </p>
+        </div>
+    </main>
+    -->
+    <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="carouselId"><!--
+            <div class="carousel-item active">
+                <div class="d-flex align-items-center justify-content-center bg-black w-100" style="height: 500px;">
+                    <img src="./assets/img/jaqueta.png" alt="Jaqueta" style="height: 100%; object-fit: contain;">
+                    <div class="carousel-text text-white ms-5">
+                        <h2>Jaqueta</h2>
+                        <p>Jaqueta super leve estilo piloto.</p>
+                        <a href="detalhes.html?id=1" class="btn btn-outline-light">Ver produto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex align-items-center justify-content-center bg-black w-100" style="height: 500px;">
+                    <img src="./assets/img/jaqueta.png" alt="Jaqueta" style="height: 100%; object-fit: contain;">
+                    <div class="carousel-text text-white ms-5">
+                        <h2>Jaqueta</h2>
+                        <p>Jaqueta super leve estilo piloto.</p>
+                        <a href="detalhes.html?id=1" class="btn btn-outline-light">Ver produto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex align-items-center justify-content-center bg-black w-100" style="height: 500px;">
+                    <img src="./assets/img/jaqueta.png" alt="Jaqueta" style="height: 100%; object-fit: contain;">
+                    <div class="carousel-text text-white ms-5">
+                        <h2>Jaqueta</h2>
+                        <p>Jaqueta super leve estilo piloto.</p>
+                        <a href="detalhes.html?id=1" class="btn btn-outline-light">Ver produto</a>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section id="abtColection" class="colections">
+        <h1>Informações:</h1>
+        <h2>Uma loja de roupas com a alma do Glória.</h2>
+        <div id="itemsInfo">
+            <!--No js-->
+        </div>
+    </section>
+    <section id="sexSect">
+        <div>
+            <div id="sex">
+                <div class="escuro">
+                    <a href=""><img src="./assets/img/mulher.webp"></a>
+                </div>
+                <div class="escuro">
+                    <a href=""><img src="./assets/img/homem.webp"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="atributo">
+        <div>
+            <form>
+                <label>Inscreva-se para receber notificações: </label>
+                <input type="text" placeholder="E-mail">
+            </form>
+        </div>
+        <div id="logoF">
+            <img src="./assets/img/logoLight.png" alt="">
+        </div>
+        <div id="rights">
+            <p>Nome: Vitor Augusto de Souza - Curso: Eng. de Software - Turno: Noite</p>
+        </div>
+    </footer>
+    <!--link js-->
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>

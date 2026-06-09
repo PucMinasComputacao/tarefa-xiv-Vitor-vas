@@ -1,0 +1,400 @@
+
+/*==============================================
+DROPDOWN
+==============================================*/
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*==============================================
+NAVEGACAO
+==============================================*/
+.icones {
+    height: 30px;
+    width: 30px;
+    margin: 0 15px 0 15px;
+}
+
+.icones:hover {
+    background-color: #bebebe;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    transition: 0.3s;
+}
+
+nav:hover {
+    background-color: white;
+}
+
+#formSearch {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formSearch>button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-left: 2px;
+}
+#logoNav{
+    height: fit-content;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#imgSearch {
+    width: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../img/backImg.png);
+    border-bottom: solid rgb(71 102 123) 10px;
+}
+
+body {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#backImg {
+    background-image: url(backImg.png);
+}
+
+#btnHead {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.colections {
+    margin-top: 5vh;
+    color: rgb(71 102 123);
+}
+
+.colections>h1 {
+    margin-left: 5vh;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.colections>h2 {
+    margin: 0 0 30px 5vh;
+    font-size: 20px;
+}
+
+#itemsInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+#items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    height: 45vh;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.cards>img {
+    height: 100%;
+    width: auto;
+}
+
+.cards>div {
+    margin-left: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards p {
+    margin-top: 0;
+}
+
+section {
+    margin: 30px 200px 0 200px;
+}
+
+#sex {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0;
+}
+
+.escuro {
+    transition: filter 0.3s ease-in-out;
+}
+
+.escuro:hover {
+    filter: brightness(50%);
+
+}
+
+#itemElas {
+    position: absolute;
+    top: 3000px;
+    left: 680px;
+    color: rgb(248 244 196);
+
+}
+
+main {
+    text-align: center;
+}
+
+main>h1 {
+    font-size: 70px;
+    color: rgb(71 102 123);
+    margin-bottom: 10px;
+}
+
+#textArt {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 10vh auto;
+    color: rgb(71 102 123);
+
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: rgb(248 244 196);
+}
+
+footer input {
+    border-radius: 0;
+    background-color: rgb(248 244 196);
+    width: 20%;
+    margin-left: 110vh;
+}
+
+footer form {
+    padding-left: 10vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid rgb(248 244 196) 1px;
+}
+
+#logoF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-bottom: solid rgb(248 244 196) 1px;
+}
+
+#logoF>img {
+    height: 50px;
+}
+
+#rights>p {
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+#rights {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    #sexSect {
+        margin: 0;
+    }
+
+    #sex {
+        display: block;
+    }
+
+    .escuro>a>img {
+        width: 100%;
+    }
+
+    #abtColection {
+        margin: 0;
+    }
+
+    #itemsInfo {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #colection {
+        margin: 0;
+    }
+
+    #items {
+        display: grid;
+    }
+
+    footer input {
+        margin-left: 0;
+        width: 70%;
+    }
+
+    #formSearch>input {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        height: 70%;
+
+    }
+
+    .carousel-item > div {
+        height: 300px !important;
+    }
+    #logoImgNav{
+        height: 50px;
+    }
+
+}
+/*==============================================
+TELA TABLET
+==============================================*/
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    #sexSect {
+        margin: 0;
+    }
+
+    #sex {
+        display: block;
+    }
+
+    .escuro>a>img {
+        width: 100%;
+    }
+
+    #abtColection {
+        margin: 0;
+    }
+
+    #itemsInfo {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #colection {
+        margin: 0;
+    }
+
+    #items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    footer input {
+        margin-left: 0;
+        width: 70%;
+    }
+
+    #formSearch>input {
+        width: 100%;
+    }
+    #logoImgNav{
+        height: 100px;
+    }
+}
+/*==============================================
+TELA DESKTOP
+==============================================*/
+@media screen and (min-width: 1200px) and (max-width: 2260px) {
+    #sexSect {
+        margin: 0 10%;
+    }
+
+    #sex {
+        display: block;
+    }
+    #logoImgNav{
+        height: 100px;
+    }
+    .escuro>a>img {
+        width: 80%;
+        margin: 20px 0 20px 0;
+    }
+    .escuro>a{
+        display: flex;
+        justify-content: center;
+    }
+        footer input {
+        margin-left: 30px;
+        width: 50%;
+    }
+        #items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+.carousel-text {
+  max-width: 300px;
+  height: fit-content;
+}
+
+.carousel-text h2 {
+  font-size: 30px;
+}
+
+.carousel-text p {
+  font-size: 16px;
+}
+.carousel-item img {
+  height: 100%;
+}
+
+.carousel-item{
+    height: 400px;
+}
