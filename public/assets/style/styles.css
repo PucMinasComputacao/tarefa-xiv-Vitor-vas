@@ -67,8 +67,8 @@ nav:hover {
     border: none;
     margin-left: 2px;
 }
-#logoNav{
-    height: fit-content;
+#logoNav img{
+    height: 70px;
 }
 
 input {

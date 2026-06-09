@@ -7,7 +7,8 @@ const data = {
         "categoria": "Unisex",
         "imagem": "./assets/img/jaqueta.png",
         "descricao": "Jaqueta super leve estilo piloto.",
-        "emEstoque": true
+        "emEstoque": true,
+        "dataEvento": "2026-06-15"
       },
       {
         "id": 2,
@@ -16,7 +17,8 @@ const data = {
         "categoria": "Unisex",
         "imagem": "./assets/img/peluda.jpg",
         "descricao": "Jaqueta peluda nome atras.",
-        "emEstoque": false
+        "emEstoque": false,
+        "dataEvento": "2026-06-20"
       }
     ]
   }

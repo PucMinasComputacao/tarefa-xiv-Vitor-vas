@@ -1,0 +1,83 @@
+
+/*==============================================
+DROPDOWN
+==============================================*/
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*==============================================
+NAVEGACAO
+==============================================*/
+.icones {
+    height: 30px;
+    width: 30px;
+    margin: 0 15px 0 15px;
+}
+
+.icones:hover {
+    background-color: #bebebe;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    transition: 0.3s;
+    
+}
+
+nav:hover {
+    background-color: white;
+}
+
+#formSearch {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formSearch>button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-left: 2px;
+}
+#logoImgNav{
+    height: 70px;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#imgSearch {
+    width: 30px;
+}
