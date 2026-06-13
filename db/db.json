@@ -1,0 +1,53 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Jaqueta Moleton Unisex com capuz - m&m",
+        "preco": 390.00,
+        "categoria": "Unisex",
+        "imagem": "./assets/img/jaqueta.png",
+        "descricao": "Jaqueta super leve estilo piloto.",
+        "descricaoCompleta": "Jaqueta branca, tipo piloto, feita para aqueles que gostam desse estilo",
+        "emEstoque": true,
+        "dataEvento": "2026-06-15",
+        "tags": [
+          "Jaqueta", "frio"
+        ]
+      },
+      {
+        "id": 2,
+        "nome": "Jaqueta peluda",
+        "preco": 490,
+        "categoria": "Unisex",
+        "imagem": "./assets/img/peluda.jpg",
+        "descricao": "Jaqueta peluda nome atras.",
+        "descricaoCompleta": "Jaqueta preta, tipo peluda, com escrito atrás, feita para aqueles que gostam desse estilo",
+        "emEstoque": false,
+        "dataEvento": "2026-06-20",
+        "tags": [
+          "Jaqueta", "frio"
+        ]
+      }
+    ],
+    "usuarios": [
+      {
+        "id": 1,
+        "nome": "Vitor",
+        "senha": "12345"
+      }
+    ],
+    "avaliacoes":[
+      {
+        "id": 1,
+        "idProduto": 1,
+        "idUser": 1,
+        "avaliacao": "Otimo produto"
+      }
+    ]
+
+}
+
+
+
+
+  
